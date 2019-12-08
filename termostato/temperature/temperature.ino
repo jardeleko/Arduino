@@ -1,4 +1,4 @@
- //thermostat
+//thermostat
 #include <Wire.h>
 #include <Adafruit_Sensor.h>
 #include <Adafruit_BME280.h>
@@ -36,3 +36,11 @@ void loop() {
 	Serial.println();
 	delay(1000);
 }
+
+/*
+developed by Last Minute Engineers
+
+disponível em:
+https://lastminuteengineers.com/bme280-arduino-tutorial
+
+*/
